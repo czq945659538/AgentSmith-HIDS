@@ -19,7 +19,7 @@ setup(
         'smith-console=smith_console.cli:console',
         'smith-server=smith_console.cli:server',
     ]},
-    install_requires=["redis==2.10.6", "pyfiglet==0.7.6", "ipy==0.83"],
+    install_requires=["redis==4.4.4", "pyfiglet==0.7.6", "ipy==0.83"],
     platforms="any",
     classifiers=[
         "Programming Language :: Python :: 3.4",
